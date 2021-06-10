@@ -71,25 +71,25 @@ return [
                 ]
             ],
 //                    ]
-//            'checkout' => [
-//                'standard' => [
-//                    'url' => [
-//                        'action' => '/public',
-//                        'config' => [
-//                            'absoluteUri' => '/public'
-//                        ]
-//                    ]
-//                ]
-//            ],
+            'checkout' => [
+                'standard' => [
+                    'url' => [
+                        'action' => '/public',
+                        'config' => [
+                            'absoluteUri' => '/public'
+                        ]
+                    ]
+                ]
+            ],
             'basket' => [
                 'standard' => [
-//                    'url' => [
-//                        'action' => '/public',
-//                        'controller' => '/public',
-//                        'config' => [
-//                            'absoluteUri' => '/public'
-//                        ]
-//                    ]
+                    'url' => [
+                        'action' => '/public',
+                        'controller' => '/public',
+                        'config' => [
+                            'absoluteUri' => '/public'
+                        ]
+                    ]
                 ],
                 'cache' => [
                     'enable' => false, // Disable basket content caching for development
@@ -99,21 +99,21 @@ return [
                 'template' => [
                     'baseurl' => 'packages/aimeos/shop/themes/elegance',
                 ],
-//                'content' => [
-//                    'baseurl' => '/public'
-//                ],
+                'content' => [
+                    'baseurl' => '/public'
+                ],
                 'cache' => [
                     'enable' => false, // Disable basket content caching for development
                 ],
             ],
             'catalog' => [
                 'detail' => [
-//                    'url' => [
-//                        'action' => '/public',
-//                        'config' => [
-//                            'absoluteUri' => '/public'
-//                        ]
-//                    ]
+                    'url' => [
+                        'action' => '/public',
+                        'config' => [
+                            'absoluteUri' => '/public'
+                        ]
+                    ]
                 ]
                 ,
                 'cache' => [

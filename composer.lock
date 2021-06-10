@@ -650,16 +650,16 @@
         },
         {
             "name": "aimeos/map",
-            "version": "2.2.0",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aimeos/map.git",
-                "reference": "0c53d1cfe5c443d07720d47ab62461e6abf13bc3"
+                "reference": "d43c425f139f0707b926a3f638d6e02d4ddf6004"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aimeos/map/zipball/0c53d1cfe5c443d07720d47ab62461e6abf13bc3",
-                "reference": "0c53d1cfe5c443d07720d47ab62461e6abf13bc3",
+                "url": "https://api.github.com/repos/aimeos/map/zipball/d43c425f139f0707b926a3f638d6e02d4ddf6004",
+                "reference": "d43c425f139f0707b926a3f638d6e02d4ddf6004",
                 "shasum": ""
             },
             "require": {
@@ -667,7 +667,8 @@
             },
             "require-dev": {
                 "php-coveralls/php-coveralls": "~2.0",
-                "phpunit/phpunit": "~7.0||~8.0||~9.0"
+                "phpunit/phpunit": "~7.0||~8.0||~9.0",
+                "squizlabs/php_codesniffer": "^3.5"
             },
             "type": "library",
             "autoload": {
@@ -694,9 +695,9 @@
             ],
             "support": {
                 "issues": "https://github.com/aimeos/map/issues",
-                "source": "https://github.com/aimeos/map/tree/2.2.0"
+                "source": "https://github.com/aimeos/map/tree/2.3.0"
             },
-            "time": "2021-02-24T09:04:18+00:00"
+            "time": "2021-06-10T07:30:22+00:00"
         },
         {
             "name": "asm89/stack-cors",

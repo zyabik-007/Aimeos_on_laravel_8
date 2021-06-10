@@ -64,6 +64,16 @@ return [
 
     'client' => [
         'html' => [
+            'checkout' => [
+                'standard' => [
+                    'url' => [
+                        'action' => '/public',
+                        'config' => [
+                            'absoluteUri' => '/public'
+                        ]
+                    ]
+                ]
+            ],
             'basket' => [
                 'standard' => [
                     'url' => [
@@ -80,7 +90,7 @@ return [
             ],
             'common' => [
                 'template' => [
-                     'baseurl' => 'packages/aimeos/shop/themes/elegance',
+                    'baseurl' => 'packages/aimeos/shop/themes/elegance',
                 ],
                 'content' => [
                     'baseurl' => '/public'

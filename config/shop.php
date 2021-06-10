@@ -68,7 +68,8 @@ return [
                 'action' => '/public',
                 'config' => [
                     'absoluteUri' => '/public'
-                ],
+                ]
+            ],
 //                    ]
 //            'checkout' => [
 //                'standard' => [

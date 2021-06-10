@@ -64,25 +64,31 @@ return [
 
     'client' => [
         'html' => [
-            'checkout' => [
-                'standard' => [
-                    'url' => [
-                        'action' => '/public',
-                        'config' => [
-                            'absoluteUri' => '/public'
-                        ]
-                    ]
-                ]
-            ],
+            'url' => [
+                'action' => '/public',
+                'config' => [
+                    'absoluteUri' => '/public'
+                ],
+//                    ]
+//            'checkout' => [
+//                'standard' => [
+//                    'url' => [
+//                        'action' => '/public',
+//                        'config' => [
+//                            'absoluteUri' => '/public'
+//                        ]
+//                    ]
+//                ]
+//            ],
             'basket' => [
                 'standard' => [
-                    'url' => [
-                        'action' => '/public',
-                        'controller' => '/public',
-                        'config' => [
-                            'absoluteUri' => '/public'
-                        ]
-                    ]
+//                    'url' => [
+//                        'action' => '/public',
+//                        'controller' => '/public',
+//                        'config' => [
+//                            'absoluteUri' => '/public'
+//                        ]
+//                    ]
                 ],
                 'cache' => [
                     'enable' => false, // Disable basket content caching for development

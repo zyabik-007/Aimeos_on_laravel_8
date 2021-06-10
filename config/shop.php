@@ -64,12 +64,12 @@ return [
 
     'client' => [
         'html' => [
-            'url' => [
-                'action' => '/public',
-                'config' => [
-                    'absoluteUri' => '/public'
-                ]
-            ],
+//            'url' => [
+//                'action' => '/public',
+//                'config' => [
+//                    'absoluteUri' => '/public'
+//                ]
+//            ],
 //                    ]
 //            'checkout' => [
 //                'standard' => [
@@ -99,21 +99,21 @@ return [
                 'template' => [
                     'baseurl' => 'packages/aimeos/shop/themes/elegance',
                 ],
-                'content' => [
-                    'baseurl' => '/public'
-                ],
+//                'content' => [
+//                    'baseurl' => '/public'
+//                ],
                 'cache' => [
                     'enable' => false, // Disable basket content caching for development
                 ],
             ],
             'catalog' => [
                 'detail' => [
-                    'url' => [
-                        'action' => '/public',
-                        'config' => [
-                            'absoluteUri' => '/public'
-                        ]
-                    ]
+//                    'url' => [
+//                        'action' => '/public',
+//                        'config' => [
+//                            'absoluteUri' => '/public'
+//                        ]
+//                    ]
                 ]
                 ,
                 'cache' => [

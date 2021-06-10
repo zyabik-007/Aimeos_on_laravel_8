@@ -99,9 +99,9 @@ return [
                 'template' => [
                     'baseurl' => 'packages/aimeos/shop/themes/elegance',
                 ],
-                'content' => [
-                    'baseurl' => '/public'
-                ],
+//                'content' => [
+//                    'baseurl' => '/public'
+//                ],
                 'cache' => [
                     'enable' => false, // Disable basket content caching for development
                 ],

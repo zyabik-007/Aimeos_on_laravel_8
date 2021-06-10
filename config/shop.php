@@ -64,12 +64,12 @@ return [
 
     'client' => [
         'html' => [
-//            'url' => [
-//                'action' => '/public',
-//                'config' => [
-//                    'absoluteUri' => '/public'
-//                ]
-//            ],
+            'url' => [
+                'action' => '/public',
+                'config' => [
+                    'absoluteUri' => '/public'
+                ]
+            ],
 //                    ]
 //            'checkout' => [
 //                'standard' => [

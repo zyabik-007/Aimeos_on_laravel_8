@@ -67,11 +67,11 @@ return [
             'basket' => [
                 'standard' => [
                     'url' => [
-//                        'action' => '/myshop/public',
-//                        'controller' => '/myshop/public',
-//                        'config' => [
-//                            'absoluteUri' => '/myshop/public'
-//                        ]
+                        'action' => '/public',
+                        'controller' => '/public',
+                        'config' => [
+                            'absoluteUri' => '/public'
+                        ]
                     ]
                 ],
                 'cache' => [
@@ -80,10 +80,10 @@ return [
             ],
             'common' => [
                 'template' => [
-                    // 'baseurl' => 'packages/aimeos/shop/themes/elegance',
+                     'baseurl' => 'packages/aimeos/shop/themes/elegance',
                 ],
                 'content' => [
-//                    'baseurl' => '/myshop/public'
+                    'baseurl' => '/public'
                 ],
                 'cache' => [
                     'enable' => false, // Disable basket content caching for development
@@ -92,10 +92,10 @@ return [
             'catalog' => [
                 'detail' => [
                     'url' => [
-//                        'action' => '/myshop/public',
-//                        'config' => [
-//                            'absoluteUri' => '/myshop/public'
-//                        ]
+                        'action' => '/public',
+                        'config' => [
+                            'absoluteUri' => '/public'
+                        ]
                     ]
                 ]
                 ,

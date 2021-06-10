@@ -57,7 +57,7 @@ class Laravel5
         $params = $this->sanitize($params);
         $values = $this->getValues($config);
         $fragment = (!empty($trailing) ? '#' . implode('/', $trailing) : '');
-        $values['absoluteUri'] = true;
+//        $values['absoluteUri'] = true;
         return $this->builder->route($target, $params, $values['absoluteUri']) . $fragment;
     }
 
